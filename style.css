@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(182, 140, 140);
+}
+#content {
+    
+    background-color: antiquewhite;
+    height: 40px;
+    
+}
+.login {
+    float: right;
+
+}
+
+#contentnav {
+    background-color: burlywood;
+    height: 60px;
+    text-align: right;  
+      
+}
+
+
+#page3 {
+    background-color: rgb(186, 193, 214);
+    height: 800px;
+    text-align: center;
+    padding-top: 10px;
+
+               
+}
+#page3 > h2 {
+    padding: 180px;
+    color: rgb(209, 32, 77);
+    font-style: italic;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+#page4 {
+
+    background-color: blueviolet;
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    background-color: rgb(114, 114, 231);
+    grid-template-columns: auto auto auto;
+    align-content: space-around ;
+    column-gap: 10px;
+    
+    
+}
+.grid-item {
+    background-color: rgb(240, 241, 241);
+    border: 1px solid rgb(20, 20, 20); 
+    padding: 60;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; color: blue; 
+    align-items: center;
+        
+}
+
+footer {
+    background-color: rgb(111, 216, 120);
+    font-family: 'Courier New', Courier, monospace;color: aliceblue;size: 15px;
+   padding-top: 10px;
+    text-align: right;
+}
